@@ -1,2 +1,2 @@
-# zipcode_to_csa
-A relational dataset between CSA (Combined Statistical Area) and Zip Code
+# Map between Zip Code & Combined Statistical Areas
+It's very hard to find a relational dataset between Zip Codes and Combined Statistical Areas. I pulled this from https://mcdc.missouri.edu/applications/geocorr2022.html and then mapped the six digit zip code from a CSV of Zip Codes from the USPS. Not every row has a match, but most do. This covers the entire United States. To filter for Metropolitian Statistical Areas (MSAs), simply filter the cbsatype23 row for "Metro" and use the CBSAName23. 
